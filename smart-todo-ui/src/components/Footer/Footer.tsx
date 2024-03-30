@@ -5,8 +5,8 @@ function Footer() {
   return (
     <footer className="footer position-fixed bottom-0 py-3">
       <Container>
-        <Row className="align-items-center">
-          <Col md={6} className="text-md-left text-center mb-md-0 mb-3">
+        <Row className="d-flex align-items-center">
+          <Col xs={6} className="text-md-left text-center mb-md-0">
             <a
               href="https://github.com/Lakshay-Batra"
               className="social-icon mr-3"
@@ -40,7 +40,7 @@ function Footer() {
               <i className="bi bi-medium"></i>
             </a>
           </Col>
-          <Col md={6} className="text-md-right text-center">
+          <Col xs={6} className="text-md-right text-center">
             <p className="mb-0">
               &copy; Lakshay Batra {new Date().getFullYear()}
             </p>

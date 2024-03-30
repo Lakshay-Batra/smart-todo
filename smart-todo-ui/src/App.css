@@ -52,7 +52,7 @@
 @media screen and (max-width: 600px) {
   .plus-button {
     right: 1rem;
-    bottom: 8rem;
+    bottom: 5rem;
     width: 2.5rem;
     height: 2.5rem;
   }
