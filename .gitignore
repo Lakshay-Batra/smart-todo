@@ -39,6 +39,11 @@ smart-todo-ui/.pnp.js
 smart-todo-ui/coverage
 
 # misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 smart-todo-ui/.DS_Store
 smart-todo-ui/.env.local
 smart-todo-ui/.env.development.local
