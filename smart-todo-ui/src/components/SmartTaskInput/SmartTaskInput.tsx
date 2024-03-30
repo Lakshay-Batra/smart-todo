@@ -23,7 +23,7 @@ function SmartTaskInput() {
     setShowCreateSmartListModal(true);
     try {
       const response = await axios.post(
-        "http://localhost:3001/api/ai/list-suggestion",
+        "https://smart-todo-13pi.onrender.com/api/ai/list-suggestion",
         {
           task: smartTaskInput,
           lists: lists.map(({ name }) => name),

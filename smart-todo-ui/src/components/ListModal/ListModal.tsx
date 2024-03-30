@@ -48,7 +48,7 @@ function ListModal({ show, handleClose, list }: ListModalProps) {
       return;
     try {
       const response = await axios.post(
-        "http://localhost:3001/api/ai/list-guide",
+        "https://smart-todo-13pi.onrender.com/api/ai/list-guide",
         {
           tasks: listsState
             .filter((listState) => listState.id === list?.id)[0]
