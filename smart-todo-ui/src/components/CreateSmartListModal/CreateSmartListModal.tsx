@@ -117,7 +117,8 @@ function CreateSmartListModal(props: CreateSmartListModalProps) {
                   <span className="text-uppercase fw-bold">
                     System suggests:
                   </span>{" "}
-                  existing list{" "}
+                  {props.listSuggestion.isNewList ? "adding a new" : "existing"}{" "}
+                  list{" "}
                   <span className="suggested-list-name">
                     {props.listSuggestion.listName}
                   </span>{" "}
