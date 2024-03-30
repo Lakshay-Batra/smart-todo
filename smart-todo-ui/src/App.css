@@ -1,0 +1,59 @@
+.main-container {
+  padding-bottom: 5rem !important;
+}
+
+.spinner-container {
+  height: 35vh;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+.plus-button {
+  z-index: 3;
+  position: fixed;
+  bottom: 5rem;
+  right: 2.5rem;
+  border-radius: 3rem;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: var(--color-primary);
+  color: white;
+  transition: width 0.5s ease, background-color 0.3s ease;
+  overflow: hidden;
+}
+
+.plus-button .plus-icon {
+  font-size: 1.8rem;
+}
+
+.plus-button .plus-btn-text {
+  position: absolute;
+  right: -100vh;
+  opacity: 0;
+  white-space: nowrap;
+  transition: opacity 0.3s ease;
+}
+
+.plus-button:hover {
+  width: 8rem;
+  background-color: var(--color-primary-hover);
+}
+
+.plus-button:hover .plus-btn-text {
+  position: static;
+  opacity: 1;
+}
+
+@media screen and (max-width: 600px) {
+  .plus-button {
+    right: 1rem;
+    bottom: 8rem;
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+}

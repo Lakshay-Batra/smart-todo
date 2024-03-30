@@ -1,0 +1,63 @@
+.ai-suggestion-container {
+  margin-bottom: 2rem;
+  line-height: 1.5;
+  font-size: large;
+  color: #555;
+  padding-left: 2px;
+}
+
+.ai-suggestion-container .suggested-list-name {
+  font-size: 1.6rem;
+  font-weight: 600;
+  font-style: italic;
+  color: #52bea1;
+}
+
+.ai-suggestion-container .input-task {
+  border-left: 2px solid #52bea1;
+  padding-left: 1rem;
+  margin-left: 1rem;
+}
+
+.list-search-results-container {
+  position: absolute;
+  background-color: var(--color-bg-2);
+  width: 100%;
+  max-height: 10rem;
+  overflow-y: auto;
+  top: 0.6rem;
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 0 2px 4px 0 #b8d8ff;
+  z-index: 5;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.list-search-results-container .list-search-result-item {
+  width: 10rem;
+  height: 3rem;
+  padding: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-bg-1);
+  transition: all 0.1s ease;
+}
+.list-search-results-container .list-search-result-item:hover {
+  background-color: #0b5ed7;
+  color: white;
+}
+.btn-close-list-search-results {
+  position: absolute;
+  right: 0.5rem;
+  top: 0.5rem;
+  z-index: 6;
+}
+/* .edit-suggestion-note {
+  color: #666;
+  margin-top: 0.5rem;
+  padding-left: 2px;
+} */

@@ -1,0 +1,15 @@
+.footer {
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+}
+
+.social-icon {
+  color: #fff;
+  font-size: 1.5rem;
+  margin: 0 0.8rem;
+}
+
+.social-icon:hover {
+  color: #17a2b8; /* Change color on hover */
+}

@@ -1,0 +1,50 @@
+.list-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+  margin-top: 1rem;
+  padding-bottom: 3rem;
+}
+.list-card {
+  position: relative;
+  width: 16rem;
+  font-size: larger;
+  height: 7rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 1rem;
+  font-weight: 500;
+  color: #333;
+  overflow: hidden;
+  box-shadow: 0px 0px 5px 0px #d2d2d2;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.list-card:hover {
+  background-color: var(--color-bg-2);
+}
+
+.list-card .delete-btn {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  font-size: 1.5rem;
+  width: 2.3rem;
+  height: 2.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: all 0.15s ease;
+}
+
+.list-card .delete-btn:hover {
+  background-color: #dc3546;
+  color: white !important;
+  font-size: 1.3rem;
+}
